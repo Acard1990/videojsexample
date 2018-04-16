@@ -1,0 +1,10 @@
+body {
+    background: #333;
+    color: white;
+}
+
+.center {
+    margin: auto;
+    width: 640px;
+    margin-top: 25px;
+}

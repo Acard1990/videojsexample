@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Basic VideoJS example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="vid.js"></script>
+    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+
+    <!-- If you'd like to support IE8 -->
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
+<body>
+    <h1 class="center">VideoJS example</h1>
+    <video id="my-video" class="center video-js" controls preload="auto" width="640" height="264"
+    poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+      <source src="https://vjs.zencdn.net/v/oceans.webm" type='video/mp4'>
+      <source src="MY_VIDEO.webm" type='video/webm'>
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+    <p></p>
+  
+    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+
+</body>
+</html>
